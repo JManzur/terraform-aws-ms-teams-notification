@@ -28,9 +28,9 @@ Terraform Module to sends notification from CloudWatch to Microsoft Teams. This 
 
 ## How to use this module
 
-```bash
+```hcl
 module "ms-teams-notifications" {
-  source      = "git::https://github.com/JManzur/terraform-aws-ms-teams-notifications.git?ref=v1.0.1"
+  source      = "git::https://github.com/JManzur/terraform-aws-ms-teams-notifications.git?ref=vX.X.X"
   webhook_url = "https://placeholder.webhook.office.com/webhookb2/placeholder/IncomingWebhook/placeholder/placeholder"
 }
 ```
